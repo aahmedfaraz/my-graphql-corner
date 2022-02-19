@@ -1,0 +1,20 @@
+type Product {
+  id: String!
+  title: String!
+  price: Int!
+}
+
+type Query {
+  message: String!
+  products: [Product!]
+}
+
+type InputProduct {
+  id: String!
+  title: String!
+  price: Int!
+}
+
+type Mutation {
+    addProduct: 
+}
